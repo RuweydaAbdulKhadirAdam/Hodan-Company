@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hodan_company *.css
+recursive-include hodan_company *.csv
+recursive-include hodan_company *.html
+recursive-include hodan_company *.ico
+recursive-include hodan_company *.js
+recursive-include hodan_company *.json
+recursive-include hodan_company *.md
+recursive-include hodan_company *.png
+recursive-include hodan_company *.py
+recursive-include hodan_company *.svg
+recursive-include hodan_company *.txt
+recursive-exclude hodan_company *.pyc
